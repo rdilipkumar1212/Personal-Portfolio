@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.header{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    font-weight: 700;
+    color: aqua;
+    
+}
+
+.navbar a{
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 35px;
+    color: white;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color: aqua;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #0b4b66;
+    background-size: cover;
+    
+}
+.home{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.img img{
+    width: 100%;
+    height: 450px;
+    border-radius: 100%;
+    box-shadow: 0 0 2px cyan, 0 0 10px cyan, 0 0 25px cyan, 0 0 50px cyan;
+}
+
+.home-content{
+    padding-left: 20px;
+}
+
+.home-content span{
+    font-size: 35px;
+    font-weight: 600;
+    color:aqua;
+}
+
+.home-content h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.home-content h1{
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.home-content p{
+    font-size: 18px;
+}
+
+.home-sci a{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    border:2px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    align-items: center;
+    color: aqua;
+    background: transparent;
+}
+
+.home-sci a:hover{
+    background-color: aqua;
+    color: white;
+    box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan, 0 0 50px cyan, 0 0 100px cyan;
+}
+
+.btn button{
+    width: 125px;
+    height: 40px;
+    border-radius: 20px;
+    border:2px solid aqua;
+    background-color: aqua;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan, 0 0 50px cyan, 0 0 100px cyan;
+}
+
+.about-img img{
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    padding: 60px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+}
+
+.about-text h2{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+.about-text span{
+    font-size: 60px;
+    font-weight: 600;
+    color: aqua;
+}
+.about-text h4{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    margin: 15px 0 30px;
+}
+.about-text p{
+    font-size: 18px;
+    color: white;
+    margin: 15px 0 30px;
+}
+
+.container{
+    padding: 90px;
+    padding-top: 30px;
+}
+
+.services{
+    color: white;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.sub-title{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.sub-title span{
+    color: aqua;
+}
+
+.services-list{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(259px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div{
+    background-color:black;
+    padding: 40px;
+    font-size: 15px;
+    font-weight: 15px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px cyan, 1px 1px 40px cyan;    
+}
+
+.services-list div h2{
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: aqua;
+}
+
+.services-list div button{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    border:2px solid aqua;
+    background-color: aqua;
+    font-size: 15px;
+    font-weight: 600;
+}
+.services-list div button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan, 0 0 50px cyan, 0 0 100px cyan;
+}
+
+.services-list div p{
+    padding-bottom: 12px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.services-list div:hover{
+    transform: translateY(-10px);    
+}
+
+section h1{
+    padding-bottom: 25px;
+}
+
+.container1{
+    color: white;
+    width: 100%;
+    height: 600px;
+}
+.heading1{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+
+.Technical-bars{
+    margin: 50px;
+    padding-left:15%;
+}
+.Technical-bars .bar{
+    padding-bottom: 10px;
+}
+.Technical-bars .bar .info{
+    padding-bottom: 10px;
+}
+.Technical-bars .bar .info span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.Technical-bars .bar .progress-line-html{
+    position:relative;
+    border-radius: 10px;
+    width: 75%;
+    height: 5px;
+    background-color: black;
+}
+.Technical-bars .bar .progress-line-css{
+    position:relative;
+    border-radius: 10px;
+    width: 75%;
+    height: 5px;
+    background-color: black;
+}
+.Technical-bars .bar .progress-line-js{
+    position:relative;
+    border-radius: 10px;
+    width: 75%;
+    height: 5px;
+    background-color: black;
+}
+.Technical-bars .bar .progress-line-react{
+    position:relative;
+    border-radius: 10px;
+    width: 75%;
+    height: 5px;
+    background-color: black;
+}
+.Technical-bars .bar .progress-line-java{
+    position:relative;
+    border-radius: 10px;
+    width: 75%;
+    height: 5px;
+    background-color:black;
+}
+.Technical-bars .bar .progress-line-node{
+    position:relative;
+    border-radius: 10px;
+    width: 75%;
+    height: 5px;
+    background-color:black;
+}
+.Technical-bars .bar i{
+    font-size: 25px;
+}
+.Technical-bars .bar .progress-line-html span{
+    height: 100%;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 10px;
+    width: 90%;
+}
+.Technical-bars .bar .progress-line-css span{
+    height: 100%;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 10px;
+    width: 80%;
+}
+.Technical-bars .bar .progress-line-js span{
+    height: 100%;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 10px;
+    width: 75%;
+}
+.Technical-bars .bar .progress-line-react span{
+    height: 100%;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 10px;
+    width: 60%;
+}
+.Technical-bars .bar .progress-line-java span{
+    height: 100%;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 10px;
+    width: 80%;
+}
+.Technical-bars .bar .progress-line-node span{
+    height: 100%;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.Technical-bars .bar .info .percenthtml{
+    margin-left: 61%;
+}
+.Technical-bars .bar .info .percentcss{
+    margin-left: 54%;
+}
+.Technical-bars .bar .info .percentjs{
+    margin-left: 52%;
+}
+.Technical-bars .bar .info .percentreact{
+    margin-left: 39%;
+}
+.Technical-bars .bar .info .percentjava{
+    margin-left: 55%;
+}
+.Technical-bars .bar .info .percentnode{
+    margin-left: 37%;
+}
+
+.Technical-bars .bar .info .percenthtml{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+}
+.Technical-bars .bar .info .percentcss{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+}
+.Technical-bars .bar .info .percentjs{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+}
+.Technical-bars .bar .info .percentreact{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+}
+.Technical-bars .bar .info .percentjava{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+}
+.Technical-bars .bar .info .percentnode{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.main-text{
+    padding-top: 100px;
+    color: white;
+}
+.main-text h2{
+    font-size: 50px;
+    line-height: 1;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.main-text h2 span{
+    color: aqua;
+}
+.row h5{
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.main-text .portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+}
+.row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px;
+}
+.row img{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 2px cyan, 0 0 5px cyan, 0 0 10px cyan;
+}
+.layer{
+    padding-top: 10px;
+}
+.layer p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.layer i{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.contact-text{
+    color: white;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 30px;
+    margin-top: 130px;
+}
+.contact-text h2{
+    font-size: 60px;
+    text-align: center;
+    line-height: 1;
+}
+.contact-text h2 span{
+    color: aqua;
+}
+.contact-text h4{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(228, 228, 228);
+}
+.contact-text p{
+    margin: 15px;
+    line-height:20px;
+    color: rgb(177, 177, 177);
+}
+.contact-list{
+    margin-top: 20px;
+}
+.contact-list li{
+    margin-bottom: 5px;
+    display: block;
+    margin-left: 10px;
+}
+.contact-list li i{
+    font-size: 20px;
+    font-weight: 600;
+    color: aqua;
+    display: inline-block;
+}
+.contact-list li i:hover{
+    cursor: pointer;
+    color: white;
+}
+.contact-icons a{
+    justify-content: center;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+    color: aqua;
+    margin: 5px;
+}
+.contact-icons{
+    margin: 5px;
+    margin-top: 40px;
+}
+.contact-icons a:hover{
+    background-color: aqua;
+    color: white;
+    box-shadow: 0 0 2px cyan, 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan, 0 0 50px cyan;
+}
+.contact-form{
+   position: relative;
+}
+.contact-form input,textarea{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background:white;
+    color:black;
+    font-size: 1rem;
+    font-weight:600;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+.contact-form textarea{
+    resize: none;
+    height:220px;
+}
+.contact-form .send{
+    background-color: aqua;
+    border-radius:50px;
+}
+.contact-form .send:hover{
+    cursor: pointer;
+    box-shadow:0 0 2px cyan, 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan;
+}
+
+.last-text p{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top:3px;
+    font-size: 14px;
+}
+.last-text .toppara{
+    padding-top: 10px;
+}
+.last-text .lastpara{
+    padding-bottom: 10px;
+}
+.last-text .lastpara span{
+    color: blue;
+    cursor: pointer;
+}
+
